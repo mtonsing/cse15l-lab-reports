@@ -12,9 +12,7 @@ Horizontal rule:
 1. One
 2. Two
 3. Three
-`Maria Tonsing` with backticks
+`Maria Tonsing`
 ```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+Week 2
 ```
