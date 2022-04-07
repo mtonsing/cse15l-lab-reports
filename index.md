@@ -20,5 +20,5 @@ Week 2
 
 `Almost Friday`
 
-[
+[Lab Report 1](lab-report-1-week-2.html)
 [Lab Report 1](https://mtonsing.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
