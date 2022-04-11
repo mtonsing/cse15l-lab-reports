@@ -17,7 +17,12 @@ After this has been inputed you will asked to enter a passphrase that which you 
 then enter your password which like similar to step three we have just logged onto cse computer basement. Now to exit and go back to your computer you will enter mkdir .ssh . Now to save your username and passwrod you will enter scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22mm@ieng6.ucsd.edu:~/.ssh/authorized__keys. In order to check if we did it correctly we can by using ssh again to login like from step 3. 
 
 6. **Optimizing Remote Running**
-Now we will teach you how to optimize remote running. This is done by first 
+Now we will teach you how to optimize remote running. This is done by first
 
 
-
+**CSE 15L Spring 2022 Announcement**
+Have a  _nice_  week!
+We will be using [Autograder](https://autograder.ucsd.edu) as the student queue during TA/tutor office hours.
+[Link][1]
+⋮
+[1]: http://b.org
