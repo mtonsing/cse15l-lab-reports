@@ -24,6 +24,7 @@ The relationship is...
 ## A file that uses () and not [].
 * screenshot of code differ
 * link to the test file that made me prompt change
-* output of line
+* This is the output for when use only () and no []
+![Image](Error3.png)
 * relationship between bug, the symptom and failing output. 
 
