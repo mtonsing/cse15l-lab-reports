@@ -23,7 +23,9 @@ The relationship is...
 * relationship between bug, the symptom and failing output. 
 ## A file that uses () and not [].
 * screenshot of code differ
+![Image](fixederror3.png)
 * link to the test file that made me prompt change
+[File that which failed first](https://github.com/mtonsing/markdown-parser/blob/main/test3-file.md)
 * This is the output for when use only () and no []
 ![Image](Error3.png)
 * relationship between bug, the symptom and failing output. 
