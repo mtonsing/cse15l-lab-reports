@@ -15,7 +15,9 @@ Our goal in our code is be given file names and the link name and be able to pri
 The relationship is... 
 ## Trying a file that uses [] and not () .
 * screenshot of code differ
+![Image](newimage3.png)
 * link to the test file that made me prompt change
+[File that which failed first](https://github.com/mtonsing/markdown-parser/blob/main/test2-file.md)
 * This is output for when use only [] and no ()
 ![Image](Error2.png)
 * relationship between bug, the symptom and failing output. 
