@@ -16,7 +16,8 @@ The relationship is...
 ## Trying a file that uses [] and not () .
 * screenshot of code differ
 * link to the test file that made me prompt change
-* output of line
+* This is output for when use only [] and no ()
+![Image](Error2.png)
 * relationship between bug, the symptom and failing output. 
 ## A file that uses () and not [].
 * screenshot of code differ
