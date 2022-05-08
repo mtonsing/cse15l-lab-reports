@@ -4,4 +4,4 @@
 
 [Lab Report 2:How to fix a *bug*](lab-report-2-week-4.html)
 
-[Lab Report 3:]
+[Lab Report 3:Practicing]
