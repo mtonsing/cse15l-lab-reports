@@ -4,5 +4,5 @@
 
 [Lab Report 2:How to fix a *bug*](lab-report-2-week-4.html)
 
-[Lab Report 3:implementing option (1-3 from *lab 5*)](lab-report-3-week-6.html)
+[Lab Report 3:implementing option 1-3 from *lab 5*](lab-report-3-week-6.html)
 
