@@ -32,4 +32,9 @@ had not already existed as well copying all of what can
 be found of this given directory. Thus once this has been 
 done we can log into the server and be able to see all of our files there in the specified directory which in this case is 
 markdown-parse. 
+* here is an image of succesfully copying whole markdown-parse directory to specific ieng6 account.
+![Image](image17.png)
+![Image](image20.png)
+
+
 
