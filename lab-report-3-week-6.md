@@ -19,9 +19,8 @@ type in the terminal `ssh ieng6`
 implemented correctly. 
 ![Image](passwordd.png)
 
-
-
 ## Setup GitHub Access from ieng6
+
 
 ## Copy whole directories with scp -r
 
