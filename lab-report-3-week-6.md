@@ -20,7 +20,16 @@ implemented correctly.
 ![Image](passwordd.png)
 
 ## Setup GitHub Access from ieng6
-
+*first we will add a public key, this can be done by following
+this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## Copy whole directories with scp -r
+Now we will show you how to copy meaning copying the directory and all files that fall within a directory and further on. 
+* to simply copy a certain directory you must type into your
+remote server `scp -r . cs15lsp22@ieng6.ucsd.edu:~/markdown-parse`. Thus in this case we are copying the
+directory markdown-parse onto the remote server if it
+had not already existed as well copying all of what can 
+be found of this given directory. Thus once this has been 
+done we can log into the server and be able to see all of our files there in the specified directory which in this case is 
+markdown-parse. 
 
