@@ -24,8 +24,11 @@ type in the terminal `ssh ieng6` or if you have change your host name like me I 
 implemented correctly. 
 ![Image](labreport3image3.png)
 * Next we will show an scp copying a file to our account using the alias we have chosen which for me will be Maria. So first make to sure exit your ieng6 account. Since we have now streamline our ssh configuartion we only need now to type,
-`scp aaa.java Maria:~/` (replace aaa.java with file you want to copy) such that if we want to make sure we have copy to our account we can enter `ssh Maria` to log back into our account then `ls` which we will then see our file in this
-case aaa.java was succesffuly copied over to our account.
+`scp practice.java Maria:~/` (replace practice.java with file you want to copy) such that if we want to make sure we have copy to our account we can enter `ssh Maria` to log back into our account then `ls` which we will then see our file in this
+case practice.java was succesffuly copied over to our account.
+* Below is an image demonstrating this
+![Image](Labreport3image4.png)
+
 
 ## Setup GitHub Access from ieng6
 *first we will add a public key, this can be done by following
