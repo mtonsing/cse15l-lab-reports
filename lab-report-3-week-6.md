@@ -42,6 +42,8 @@ do add,commit,push the do enter `git status` we will get an error because we nee
 * Once we have our private key and public key created we will now make change to our markdownparse file and push to GitHub from our ieng6 account. Below is an image of me running git commands to commit and push a change to Github while being logged into my ieng6 account. For instance I change the current directory to markdown-parser.And the edit I make is creating a new file called a.md, then I enter the git commands, first `git add .` then `git commit -m "new file"` , then I am able to push by entering `git push` . As image below shows we are successfully able to do this. 
 ![Image](labreport3imagepart2.png)
 * As we can see we get no errors this time.
+* Here is a link to for the resulting commit,
+[Link to resulting commit](https://github.com/mtonsing/markdown-parser/commit/291862536fd07157aa4782a13a47b3b42fd0c661)
 ## Copy whole directories with scp -r
 Now we will show you how to copy meaning copying the directory and all files that fall within a directory and further on. 
 * to simply copy a certain directory you must type into your
