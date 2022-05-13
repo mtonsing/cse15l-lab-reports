@@ -13,14 +13,19 @@ the following lines onto the file
 * **Host ieng6 
     HostName ieng6.ucsd.edu
     User cs15lsp22zz (replace cs15lsp22zz with your own username)**
+* In order to edit the file you must type on the terminal `vim config` which will then make the terminal look like the image below, where you can now edit it. In my case I changed my host to be now Maria. Once you have paste the lines above and finish editing the file to escape you will need to enter `esc` and then enter `:wq`. This will then save the changes made into config. 
+* Here is an image of how I edited my file config.
+![Image](Labreport3image2.png)
 * Here is an image of opening my config file and
 editing it so that my host name is now instead Maria instead of ieng6.
 * Now once you have edit the file you should now be able to
 type in the terminal `ssh ieng6` or if you have change your host name like me I will need to type `ssh Maria`.
 * Here is an image of how it will look like if everything is
 implemented correctly. 
-![Image](passwordd.png)
-* Next we will show an scp copying a file to our account using the alias we have chosen which for me will be Maria. 
+![Image](labreport3image3.png)
+* Next we will show an scp copying a file to our account using the alias we have chosen which for me will be Maria. So first make to sure exit your ieng6 account. Since we have now streamline our ssh configuartion we only need now to type,
+`scp aaa.java Maria:~/` (replace aaa.java with file you want to copy) such that if we want to make sure we have copy to our account we can enter `ssh Maria` to log back into our account then `ls` which we will then see our file in this
+case aaa.java was succesffuly copied over to our account.
 
 ## Setup GitHub Access from ieng6
 *first we will add a public key, this can be done by following
