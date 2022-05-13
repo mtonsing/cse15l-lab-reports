@@ -6,18 +6,21 @@ We will now show you how to log into your
 ieng6 account without having to insert 
 your own password.
 * We will first do so by typing in the terminal
-`~/.ssh/config` and if it doesn't exist you
+`~/.ssh/config` and if you cannot open it becuase it doesn't exist you
 will need to create it.
 * Then on your file call config you must paste
 the following lines onto the file
 * **Host ieng6 
     HostName ieng6.ucsd.edu
     User cs15lsp22zz (replace cs15lsp22zz with your own username)**
+* Here is an image of opening my config file and
+editing it so that my host name is now instead Maria instead of ieng6.
 * Now once you have edit the file you should now be able to
-type in the terminal `ssh ieng6`
+type in the terminal `ssh ieng6` or if you have change your host name like me I will need to type `ssh Maria`.
 * Here is an image of how it will look like if everything is
 implemented correctly. 
 ![Image](passwordd.png)
+* Next we will show an scp copying a file to our account using the alias we have chosen which for me will be Maria. 
 
 ## Setup GitHub Access from ieng6
 *first we will add a public key, this can be done by following
