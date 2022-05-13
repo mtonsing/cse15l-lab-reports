@@ -37,6 +37,7 @@ from ieng6
 do add,commit,push the do enter `git status` we will get an error because we need to be able to use a token-based mechanism such as ssh. To fix this issue we will create both a public and private key. 
 * One can create a public simply on github which is was I did by pressing settings then ssh and GPG keys where I made my private key, report3key
 * here is an image of my public key
+![Image](keysss.png)
 * Likewise I created a private key. Below is an image of my private key created and is stored in my account. To create this key I enter `ssh-keygen` and then press enter several times until we are given the keys random art image. 
 * Here is an image of what I just explained.
 ![Image](progress.png)
