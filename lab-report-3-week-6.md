@@ -14,12 +14,12 @@ the following lines onto the file
     HostName ieng6.ucsd.edu
     User cs15lsp22zz (replace cs15lsp22zz with your own username)**
 * In order to edit the file you must type on the terminal `vim config` which will then make the terminal look like the image below, where you can now edit it. In my case I changed my host to be now Maria. Once you have paste the lines above and finish editing the file to escape you will need to enter `esc` and then enter `:wq`. This will then save the changes made into config. 
-* Here is an image of how I edited my file config.
+* Here is an image of how I was able to open config and edited my file config.
+![Image](labreport3image1.png)
+* Below is an image of me editing the config and choosing my alias to be Maria, as it was ieng6 before.
 ![Image](Labreport3image2.png)
-* Here is an image of opening my config file and
-editing it so that my host name is now instead Maria instead of ieng6.
 * Now once you have edit the file you should now be able to
-type in the terminal `ssh ieng6` or if you have change your host name like me I will need to type `ssh Maria`.
+type in the terminal `ssh ieng6` or if you have chosan another alias like me I will need to type `ssh Maria`.
 * Here is an image of how it will look like if everything is
 implemented correctly. 
 ![Image](labreport3image3.png)
