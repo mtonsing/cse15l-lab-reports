@@ -16,7 +16,7 @@ the following lines onto the file, see first screenshot to see the format that w
 * In order to edit the file you must type on the terminal `vim config` which will then make the terminal look like the image below, where you can now edit it. In my case I changed my host to be now Maria. Once you have paste the lines above and finish editing the file to escape you will need to enter `esc` and then enter `:wq`. This will then save the changes made into config. 
 * Here is an image of how I was able to open config and edited my file config.
 
-![Image](labreport3image1.png)
+![Image](photothatgetserror.png)
 
 * Below is an image of editing the config and choosing my alias to be Maria, as it was ieng6 before.
 ![Image](Labreport3image2.png)
