@@ -40,10 +40,9 @@ do add,commit,push the do enter `git status` we will get an error because we nee
 * One can create a public simply on github which is was I did by pressing settings then ssh and GPG keys where I made my private key, report3key
 * here is an image of my public key
 ![Image](keysss.png)
-* Likewise I created a private key. Below is an image of my private key created and is stored in my account. To create this key I enter `ssh-keygen` and then press enter several times until we are given the keys random art image. 
-* Here is an image of the proccess of created a private key.
+* Likewise I created a private key. Below is an image of how I created my private and public key and where it is stored in my account. To create this key I enter `ssh-keygen` and then press enter several times until we are given the keys random art image. We can see on the last line that id_rsa is my private key and id_rsa.pub my public key location.
 ![Image](progress.png)
-* Below is an image of my private key.
+* Below is an image a part of my public key.
 ![Image](actualprivateKey.png)
 * Once we have our private key and public key created we will now make change to our markdownparse file and push to GitHub from our ieng6 account. Below is an image of me running git commands to commit and push a change to Github while being logged into my ieng6 account. For instance I change the current directory to markdown-parser.And the edit I make is creating a new file called a.md, then I enter the git commands, first `git add .` then `git commit -m "new file"` , then I am able to push by entering `git push` . As image below shows we are successfully able to do this. 
 ![Image](labreport3part2.png)
