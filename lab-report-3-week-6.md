@@ -65,6 +65,14 @@ markdown-parse.
 * Now since we have copied the whole markdown-parse directory to my ieng6 account we can now try running the test that are found within this directory, thus we should be able to run the test in our ieng6 account by typing the command, 
 `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` to first compile the MarkdownParseTest.java and then after typing the command `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest` to run MarkdownParseTest.java.
 * Below is an image of logging into my ieng6 account then compiling and running the test for my respository.
+![Image](screenshotoftest.png)
+* Now lastly we will demonstrate how to combine **scp, ; and ssh** to copy whole directory and run the test in one line. This can be done by combining these commands which are copying whole directory,logging into one's ieng6 account and lastly running the test, by entering in on the terminal, `scp -r . Maria:~/markdown-parser; ssh Maria "cd markdown-parser; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"` all in one line. The first part before the semi-colon is coppying the whole markdown-parser to my ieng6 account the secont semi-colon is to log onto my ieng6 account and the last two semi-colons are to compile and run the test. 
+* Below is an image of doing this. To not show again copying the entire directory as image before here is a simiplify versions showing I was able to copy and run the test succesfully. 
+![Image](copyingtest1.png)
+
+
+
+
 
 
 
