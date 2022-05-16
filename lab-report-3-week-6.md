@@ -9,11 +9,11 @@ your own password.
 `~/.ssh/config` and if you cannot open it becuase it doesn't exist you
 will need to create it.
 * Then on your file call config you must paste
-the following lines onto the file, see first screenshot to see the format that which it should be indented.
+the following lines onto the file, see the second  screenshot to see the format that which it should be indented.
 * **Host ieng6 
     HostName ieng6.ucsd.edu
     User cs15lsp22zz (replace cs15lsp22zz with your own username)**
-* In order to edit the file you must type on the terminal `vim config` which will then make the terminal look like the image below, where you can now edit it. In my case I changed my host to be now Maria. Once you have paste the lines above and finish editing the file to escape you will need to enter `esc` and then enter `:wq`. This will then save the changes made into config. 
+* In order to edit the file you must type on the terminal `vim config` which will then make the terminal look like the image below, where you can now edit it. In my case I changed my alias to be now Maria. Once you have paste the lines above and finish editing the file to escape you will need to enter `esc` and then type `:wq` and press enter. This will then save the changes made into config. 
 * Here is an image of how I was able to open config and edited my file config.
 
 ![Image](photothatgetserror.png)
@@ -25,8 +25,8 @@ type in the terminal `ssh ieng6` or if you have chosan another alias like me I w
 * Here is an image of how it will look like if everything is
 implemented correctly. 
 ![Image](labreport3image3.png)
-* Next we will show an scp copying a file to our account using the alias we have chosen which for me will be Maria. So first make to sure exit your ieng6 account. Since we have now streamline our ssh configuartion we only need now to type,
-`scp practice.java Maria:~/` (replace practice.java with file you want to copy) such that if we want to make sure we have copy to our account we can enter `ssh Maria` to log back into our account then `ls` which we will then see our file in this
+* Next we will show an **scp command copying a file to our account using the alias we have chosen** which for me will be Maria. So first make to sure exit your ieng6 account. Since we have now streamline our ssh configuartion we only need now to type,
+`scp practice.java Maria:~/` (replace practice.java with file you want to copy and Maria with the Alias you have chosen) such that if we want to make sure we have copy the file to our account we can enter `ssh Maria` to log back into our account then `ls` which shows a list of files in the current directory where we will then see our file in this
 case practice.java was succesffuly copied over to our account.
 * Below is an image demonstrating this
 ![Image](Labreport3image4.png)
