@@ -37,17 +37,18 @@ Now we will show you how setup GitHub access
 from ieng6
 * We can see that if we make a edit on our file this case Markdownparse.java such as trying to 
 do add,commit,push the do enter `git status` we will get an error because we need to be able to use a token-based mechanism such as ssh. To fix this issue we will create both a public and private key. 
-* One can create a public simply on github which is was I did by pressing settings then ssh and GPG keys where I made my private key, report3key
-* here is an image of my public key
+* One can create a public by going to [github](https://github.com/), then going to **settings**, then then **ssh and GPG keys** where I made my public, **report3key**.
+* Below is an image of my public key located in github.
 ![Image](keysss.png)
-* Likewise I created a private key. Below is an image of how I created my private and public key and where it is stored in my account. To create this key I enter `ssh-keygen` and then press enter several times until we are given the keys random art image. We can see on the last line that id_rsa is my private key and id_rsa.pub my public key location.
+* Likewise I created a private key. Below is an image of how I created my private and public key and where it is stored in my account. I first logged onto my account my entering `ssh Maria`. To create this key I enter `ssh-keygen` and then press enter three times until we are given the keys random art image. We can see on the last line after entering `ls` that id_rsa is my **private key** and id_rsa.pub my **public key** location.
+* Below is an image of the location of both my public and private key.
 ![Image](progress.png)
 * Below is an image a part of my public key.
 ![Image](actualprivateKey.png)
-* Once we have our private key and public key created we will now make change to our markdownparse file and push to GitHub from our ieng6 account. Below is an image of me running git commands to commit and push a change to Github while being logged into my ieng6 account. For instance I change the current directory to markdown-parser.And the edit I make is creating a new file called a.md, then I enter the git commands, first `git add .` then `git commit -m "new file"` , then I am able to push by entering `git push` . As image below shows we are successfully able to do this. 
+* Once we have our private key and public key created we will now make change to our markdownparse file and push to GitHub from our ieng6 account. Below is an image of me running git commands to commit and push a change to Github while being logged into my ieng6 account. For instance I change the current directory to markdown-parser.And the edit I make is creating a new file a.md. I create this file by entering `touch a.md` then I enter the git commands, first `git add .` to add new edit then `git commit -m "new file"` , to explain what was the edit and to commit this edit and then I am able to push by entering `git push` . As image below shows we are successfully able to do this. 
 ![Image](labreport3part2.png)
 * As we can see we get no errors this time.
-* Here is a link to for the resulting commit,
+* Here is a link to for the resulting commit, that I was able to attain by going to my person account on github then going to my respository for markdown-parser and selecting the edit **new file** to get the link,
 [Link to resulting commit](https://github.com/mtonsing/markdown-parser/commit/291862536fd07157aa4782a13a47b3b42fd0c661)
 ## Copy whole directories with scp -r
 Now we will show you how to copy meaning copying the directory and all files that fall within a directory and further on. 
