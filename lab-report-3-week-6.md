@@ -63,7 +63,8 @@ markdown-parse.
 ![Image](image17.png)
 ![Image](image20.png)
 * Now since we have copied the whole markdown-parse directory to my ieng6 account we can now try running the test that are found within this directory, thus we should be able to run the test in our ieng6 account by typing the command, 
-
+`javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java` to first compile the MarkdownParseTest.java and then after typing the command `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest` to run MarkdownParseTest.java.
+* Below is an image of logging into my ieng6 account then compiling and running the test for my respository.
 
 
 
