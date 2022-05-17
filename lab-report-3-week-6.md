@@ -43,8 +43,6 @@ do add,commit,push the do enter `git status` we will get an error because we nee
 * Likewise I created a private key. Below is an image of how I created my private and public key and where it is stored in my account. I first logged onto my account my entering `ssh Maria`. To create this key I enter `ssh-keygen` and then press enter three times until we are given the keys random art image. We can see on the last line after entering `ls` that id_rsa is my **private key** and id_rsa.pub my **public key** location.
 * Below is an image of the location of both my public and private key.
 ![Image](progress.png)
-* Below is an image a part of my public key.
-![Image](actualprivateKey.png)
 * Once we have our private key and public key created we will now **make change to our markdownparse file and push to GitHub from our ieng6 account**. Below is an image of me running git commands to commit and push a change to Github while being logged into my ieng6 account. For instance I change the current directory to markdown-parser.And the edit I make is creating a new file a.md. I create this file by entering `touch a.md` then I enter the git commands, first `git add .` to add new edit then `git commit -m "new file"` , to explain what was the edit and to commit this edit and then I am able to push by entering `git push` . As image below shows we are successfully able to do this. 
 ![Image](labreport3part2.png)
 * As we can see we get no errors this time.
