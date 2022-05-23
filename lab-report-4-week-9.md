@@ -5,7 +5,7 @@ my terminal `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar Markdown
 `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`
 ## Link to markdown-repository
 * Here is a link to my own markdown-parse repository, [Link](https://github.com/mtonsing/markdown-parser)
-* Here is a link to the markdown-parse repository that i reviewed, [Link](https://github.com/thanhnhanlam/markdown-parser) 
+* Here is a link to the markdown-parse repository that I reviewed, [Link](https://github.com/thanhnhanlam/markdown-parser) 
 ## Test Snippet One
 * Testing snippet One on markdown-parse I reviewed on lab 7. Below is a photo of first of how I created the test in my markdown parse test file. The second image is the file componenets. And laslty the last image shows if it fails or pass as it can be seen our test failed in this case. 
 ![Image](photopart1.png)
