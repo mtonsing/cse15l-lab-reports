@@ -12,17 +12,17 @@ my terminal `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar Markdown
 * Testing snippet One on my own markdown-parse.
 Below is image of testing snippet one to my own markdown-parse file. I do not included what the file we are testing contains becuase its identical to the image that was previously shown,
 ![Image](a.png)
-* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel.
+* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel.The code change for this specific test I feel would be, not letting back ticks effect the lines of code that which we want to run since we see from the results our code stops after the second back tick thinking that our code is done. 
 ## Test Snippet Two
-Testing snippet two on markdown-parse I reviewed on lab 7.Similary follow same procedure to now test snippet two as it can be seen our test fails. 
+Testing snippet two on markdown-parse I reviewed on lab 7. Similary follow same procedure to now test snippet two as it can be seen our test fails. 
 ![Image](photopart2.png)
 * Testing snippet two on my own markdown-parse.The image below shows how I created the test in my markdowntest file and what part my test fails as it can be seen this test fails.
 ![Image](b.png)
-* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel.
+* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel. This specific code that will fix this error I feel will be to be sure to print only characters that a webiste can contains such as letters numbers back slashes making sure to not print the parenthesis ever, will help us get our desired results. 
 ## Test Snippet Three
 Testing snippet three on markdown-parse I reviewed on lab 7.Below is an image of how i was able to test snippet three on the markdown parse that i reviewed in lab 7. As we can see the test fails. 
 ![Image](photopart3.png)
 * Testing snippet three on my own markdown-parse.
 Similar process to the past steps we see that our test fails after recreated my test in my parsetest-file in order to save gas. 
 ![Image](c.png)
-* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel.
+* After testing I feel that there will need to be a code change in order to fix the error a code that is less than 10 lines will be do able I feel.The specific code that would fix this error I feel will be a longer effect such that removing the unnecessary spaces from our print statements so that our links are all seperate by only a comma and not multiples spaces. 
