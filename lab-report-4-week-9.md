@@ -30,6 +30,6 @@ Testing snippet two on markdown-parse I reviewed on lab 7. Similary follow same 
 Testing snippet three on markdown-parse I reviewed on lab 7.Below is an image of how i was able to test snippet three on the markdown parse that i reviewed in lab 7. As we can see the test fails. 
 ![Image](x.png)
 * Testing snippet three on my own markdown-parse.
-Similar process to the past steps we see that our test fails after recreated my test in my parsetest-file in order to save gas. 
+Similar process to the past steps we see that our test fails after creating my test in my MarkdownParseTest.java. 
 ![Image](x2png)
 * After testing I feel that there will need to be a code change in order to fix the error a code that is more than 10 lines. The specific code that would fix this error I feel will be a take longer lines to see which index to print such that removing the unnecessary spaces from our print statements so that our links are all seperate by only a comma and not multiples spaces. 
