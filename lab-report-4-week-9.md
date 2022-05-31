@@ -7,7 +7,7 @@ my terminal `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar Markdown
 * I have decided wht each test should produce by using [the CommonMark Demo site](https://spec.commonmark.org/dingus/).
 By using this site I got that the expected output should be,
 * Snippet one- `google.com,google.com,ucsd.edu
-* Snippet two- a.com,a.com9(()),example.com
+* Snippet two- a.com,a.com(()),example.com
 * Snippet three- https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
 
 ## Link to markdown-repository
