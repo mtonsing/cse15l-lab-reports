@@ -8,4 +8,4 @@
 
 [Lab Report 4:*Testing three snippets* on my own markdown-parse and on the markdown-parse I reviewed on lab 7](lab-report-4-week-9.html)
 
-[Lab Report 5:*Testing ]
+[Lab Report 5:*Using two test where my implementation had different answers than the implementation provided in lab 9](lab-report-5-week-10.html)
