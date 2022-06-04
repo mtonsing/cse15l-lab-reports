@@ -6,17 +6,22 @@ with different results. I did this through the process of using vimdiff on the r
 
 ## Link to test files with different results
 * Link to test file 194
-[Link to test file 194](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.html.test)
+[Link to test file 194](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md)
 * Link to test file 201
 [Link to test file 201](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 ## Test File 194
-* Which implementation is correct: By using [commonmark](https://spec.commonmark.org/dingus/) I was able to see that the correct implementation was neither since the expected output was *title (with parens)*. Since we can see my actual output was error invalid link format for openParen! and the markdownparser provided in lab 9 was *[url]*
+* Below is an image of the actual test file
+![Image](insidefile194.png)
+
+* Which implementation is correct: By using [commonmark](https://spec.commonmark.org/dingus/) I was able to see that the correct implementation was neither since the expected output was *title (with parens)*. Since we can see my actual output was an error messages which showed that there is no valid link while the the markdownparser provided in lab 9 was *[url]* which is also wrong. 
 * Both actual outputs and expected output:
 As was mention previously we see that the expected and actual output are not at all the same here is the image of actual output for test file 194 for mine and their implementation. 
 ![Image](actual1941.png)
 
-* The bug/The code that should be fix:
+* The bug/The code that should be fix: Looking in my code I see that 
 ## Test File 201
+* Below is an image of the actual test file 
+![Image](inside201.png)
 * Which implementation is correct:
 For this test file it's clear that the correct implementation is, their implementation of markdown-parser, where there actual output and the expected output for test file 201 is,an empty list where I got, *Error invalid link format for openParen!* where the actual output for the given implementation in lab 9 was *[baz]*.
 * Both actual outputs and expected output:
