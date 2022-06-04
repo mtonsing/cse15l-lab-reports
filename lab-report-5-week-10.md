@@ -18,13 +18,15 @@ with different results. I did this through the process of using vimdiff on the r
 As was mention previously we see that the expected and actual output are not at all the same here is the image of actual output for test file 194 for mine and their implementation. 
 ![Image](actual1941.png)
 
-* The bug/The code that should be fix: Looking in my code I see that 
+* The bug/The code that should be fix: Since both cases are wrong
+since neither is printing the correct output we will choose my code to fix. In my case my code think there is not valid link which is not the case thus one of our cases where we check if the link is a valid link is incorrect.
 ## Test File 201
 * Below is an image of the actual test file 
 ![Image](inside201.png)
 * Which implementation is correct:
-For this test file it's clear that the correct implementation is, their implementation of markdown-parser, where there actual output and the expected output for test file 201 is,an empty list where I got, *Error invalid link format for openParen!* where the actual output for the given implementation in lab 9 was *[baz]*.
+For this test file it's clear that the correct implementation is, my implementation of markdown-parser, where the actual output and the expected output for test file 201 is,an empty list since no link is valid.In this case the given implementation in lab output was incorrect since its output was, *[baz]*.
 * Both actual outputs and expected output:
 As mention before we see that my actual output is similar to the expected output, while the give implementation of lab 9 output is incorrect. Below is an image of the actual output for both implementation.
 ![Image](actaulresult2.png)
 * The bug/The code that should be fix:
+Thus in this case my code is correct and we must fix the code from the given implementation of lab 9. As we need to print an empty list that does not include baz. Thus in this case they think that the correct link is baz and to fix this we need to make sure....
