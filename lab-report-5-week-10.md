@@ -19,7 +19,7 @@ As was mention previously we see that the expected and actual output are not at 
 ![Image](actual1941.png)
 
 * The bug/The code that should be fix: Since both cases are wrong
-since neither is printing the correct output we will choose my code to fix. In my case my code think there is not valid link which is not the case thus one of our cases where we check if the link is a valid link is incorrect.
+since neither is printing the correct output we will choose my code to fix. In my case my code think there is not valid link which is not the case thus one of our cases where we check if the link is a valid link is incorrect. 
 ## Test File 201
 * Below is an image of the actual test file 
 ![Image](inside201.png)
